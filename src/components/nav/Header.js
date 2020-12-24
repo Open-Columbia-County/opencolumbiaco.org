@@ -1,13 +1,18 @@
 import React from 'react'
 
-import NavBar from './NavBar'
+import Nav from './Nav'
+import Mobile from './Mobile'
 
 const Header = () => {
     return (
         <>
-        <h1>Open Columbia County</h1>
+        <div className='header'>
+            <img src='https://images.thehive-services.com/open-columbia-co/coveredbridge04.jpg' alt='icon' />
+            <h1>Open Columbia County</h1>
+        </div>
         <nav>
-            <NavBar />
+            <Nav />
+            <Mobile />
         </nav>
         </>
     )
