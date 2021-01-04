@@ -9,7 +9,6 @@ const Options = (props) => {
     const options = [
         "Home",
         "Our Projects",
-        "Code of Conduct",
         "Join Us",
         "Donate"
     ]

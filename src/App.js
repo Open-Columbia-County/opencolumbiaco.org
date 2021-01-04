@@ -7,8 +7,10 @@ import Header from './components/nav/Header'
 import Footer from './components/footer/Footer'
 
 import Home from './components/Home'
+import About from './components/About'
 import Projects from './components/Projects'
 import Conduct from './components/Conduct'
+import Members from './components/Members'
 import Join from './components/Join'
 import Donate from './components/Donate'
 
@@ -20,11 +22,17 @@ const App = () => {
       </header>
       <div className='main'>
         <Switch>
+          <Route path='/About'>
+            <About />
+          </Route>
           <Route path='/Our Projects'>
             <Projects />
           </Route>
           <Route path='/Code of Conduct'>
             <Conduct />
+          </Route>
+          <Route path='/Our Members'>
+            <Members />
           </Route>
           <Route path='/Join Us'>
             <Join />

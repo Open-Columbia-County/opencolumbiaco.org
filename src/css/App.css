@@ -5,6 +5,20 @@ a {
   color: #c57633;
   text-decoration: none;
 }
+.nav-option {
+  color: #c57633;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clicked {
+  border: 2px solid #c57633;
+}
+li {
+  list-style-type: disk;
+}
 .flexrow {
   display: flex;
   flex-direction: row;
@@ -37,8 +51,30 @@ a {
   align-items: center;
   text-align: center;
 }
+.App header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .App header nav .nav {
   display: none;
+}
+.App header nav .nav-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App header nav .nav-small .button {
+  margin-bottom: 0.2em;
+}
+.App header nav .nav-small .nav-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1em 0.5em;
 }
 .App .main {
   display: flex;
@@ -63,6 +99,38 @@ a {
   justify-content: center;
   align-items: center;
   padding: 1em;
+}
+.App .main .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.App .main .conduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.App .main .member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.App .main .member .member-id {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.App .main .member .member-id img {
+  width: 20%;
+  margin: 0.5em;
+  border-radius: 20%;
 }
 .App hr {
   height: 8px;

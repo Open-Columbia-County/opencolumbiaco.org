@@ -5,6 +5,20 @@ a {
   color: #c57633;
   text-decoration: none;
 }
+.nav-option {
+  color: #c57633;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clicked {
+  border: 2px solid #c57633;
+}
+li {
+  list-style-type: disk;
+}
 .flexrow {
   display: flex;
   flex-direction: row;

@@ -12,8 +12,21 @@
             text-align: center;
         }
         nav {
+            .flexcolumn();
             .nav {
                 display: none;
+            }
+            .nav-small {
+                .flexcolumn();
+
+                .button {
+                    margin-bottom: .2em;
+                }
+
+                .nav-option {
+                    .flexcolumn();
+                    padding: .1em .5em;
+                }
             }
         }
     }
@@ -34,6 +47,28 @@
         .text {
             .flexcolumn();
             padding: 1em;
+        }
+        .about {
+            .flexcolumn();
+            width: 95%;
+        }
+        .conduct {
+            .flexcolumn();
+            width: 95%;
+        }
+        .member {
+            .flexcolumn();
+            width: 95%;
+
+            .member-id {
+                .flexrow();
+
+                img {
+                    width: 20%;
+                    margin: .5em;
+                    border-radius: 20%;
+                }
+            }
         }
     }
     hr {  
