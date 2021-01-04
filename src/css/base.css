@@ -1,6 +1,10 @@
 .center {
   margin: auto;
 }
+a {
+  color: #c57633;
+  text-decoration: none;
+}
 .flexrow {
   display: flex;
   flex-direction: row;

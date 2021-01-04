@@ -17,4 +17,48 @@
             }
         }
     }
+    .main {
+        .flexcolumn();
+
+        .covid {
+            .flexcolumn();
+            background-color: @warning;
+            padding: 1em;
+
+            ul {
+                li {
+                    font-weight: bold;
+                }
+            }
+        }
+        .text {
+            .flexcolumn();
+            padding: 1em;
+        }
+    }
+    hr {  
+        height: 8px; 
+        background-color: @links; 
+        border-radius: 20%;
+        width: 95%;
+    } 
+    footer {
+        .flexcolumn();
+        background-color: @bg;
+        width: 95%;
+
+        .nav {
+            .flexcolumn();
+
+            .column1 {
+                .flexcolumn();
+            }
+            .column2 {
+                .flexcolumn();
+            }
+            .column3 {
+                .flexcolumn();
+            }
+        }
+    }
 }

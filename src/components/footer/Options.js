@@ -8,7 +8,6 @@ const Options = (props) => {
 
     const options = [
         "Home",
-        "About",
         "Our Projects",
         "Code of Conduct",
         "Join Us",
