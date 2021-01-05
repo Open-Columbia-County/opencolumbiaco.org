@@ -9,7 +9,7 @@ const About = () => {
             <p>We are a group of volunteers focused on helping our Communities.  We are part of the <a href='http://brigade.codeforamerica.org/' target='_blank' rel='noreferrer'>Code for America Brigade network</a>, made up of developers, designers, geeks, and many others who want to use technology to help solve civic and social problems</p>
         </div>
         <div className='about'>
-            <h4>What technology to we use?</h4>
+            <h4>What technology do we use?</h4>
             <p>We aren't just using computers or building websites.  We are using our skills to create useful applications or websites that serve a purpose. If we see a need in the community for something we are using our collective skills to do our best to solve this need.  You don't need to be a Developer to help build a website, maybe you are good at finding resources that we can add to that site.</p>
         </div>
         <div className='about'>

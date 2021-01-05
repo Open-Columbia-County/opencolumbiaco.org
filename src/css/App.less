@@ -6,6 +6,8 @@
 
     header {
         .flexcolumn();
+        border: 2px groove @links;
+        border-radius: 20%;
 
         .header {
             .flexrow();
@@ -51,6 +53,7 @@
         .about {
             .flexcolumn();
             width: 95%;
+            margin: 0;
         }
         .conduct {
             .flexcolumn();
@@ -70,6 +73,57 @@
                 }
             }
         }
+        section {
+            .flexcolumn();
+            width: 95%;
+
+            p {
+                blockquote {
+                    font-style: italic;
+                    background-color: @bg;
+                    margin-bottom: 0;
+                }
+            }
+
+            .connect {
+                .flexcolumn();
+                h4 {
+                    align-self: flex-start;
+                }
+                ul {
+                    .flexcolumn();
+                    align-self: flex-start;
+                    max-width: 140px;
+                    margin: .2em 0;
+
+                    li {
+                        .flexrow();
+                        align-self: flex-start;
+                        margin: .2em 0;
+                        a {
+                            .flexrow();
+                            img {
+                                max-width: 40%;
+                                margin: 0 1em;
+                            }
+                        }
+                    }
+                    #membership {
+                        .flexcolumn();
+                        align-self: flex-start;
+                        margin: .2em 0;
+                        a {
+                            .flexrow();
+                            img {
+                                max-width: 40%;
+                                margin: 0 1em;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
     }
     hr {  
         height: 8px; 
@@ -81,19 +135,39 @@
         .flexcolumn();
         background-color: @bg;
         width: 95%;
+        margin-bottom: 1em;
+        padding: 1em 0;
 
         .nav {
             .flexcolumn();
+            margin-bottom: .5em;
 
-            .column1 {
+            .column {
                 .flexcolumn();
             }
-            .column2 {
-                .flexcolumn();
-            }
+
             .column3 {
-                .flexcolumn();
+                button {
+                    .flexrow();
+                    border-radius: 40%;
+                    padding: .2em;
+                    width: 150px;
+                    height: 50px;
+                    border: 2px groove @links;
+                    margin: .1em;
+
+                    img {
+                        max-width: 30%;
+                        margin: .1em .5em;
+                    }
+                    span {
+                        margin: .1em .5em;
+                    }
+                }
+                
             }
         }
     }
 }
+
+@import './media.less';

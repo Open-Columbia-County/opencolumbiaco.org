@@ -4,7 +4,7 @@ const Conduct = () => {
     return (
         <>
         <h2>Code of Conduct</h2>
-        <div className='contuct'>
+        <div className='conduct'>
             <h4>The Open Columbia County community expects that Open Columbia County network activities, events, and digital forums:</h4>
             <ul>
                 <li>Are a safe and respectful environment for all participants.</li>

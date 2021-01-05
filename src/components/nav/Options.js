@@ -10,10 +10,9 @@ const Options = (props) => {
         "Home",
         "About",
         "Code of Conduct",
-        "Our Members"
-        // "Our Projects",
-        // "Join Us",
-        // "Donate"
+        "Our Members",
+        "Our Projects",
+        "Join Us"
     ]
 
     const handleClick = (e) => {

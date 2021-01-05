@@ -11,6 +11,7 @@ const Home = () => {
                 <ul>
                     <li><a href='https://www.meetup.com/open-columbia-co/'>Join our Meetup Group</a></li>
                     <li><a href='https://communityinviter.com/apps/opencolumbiacounty/join' target='_blank' rel='noreferrer'>Join us on Slack</a></li>
+                    <li><a href='https://discord.com/invite/97yu35EfzB' target='_blank' rel='noreferrer'>Join our Discord Server</a></li>
                 </ul>
             </p>
             <p>With your help we hope that meeting virtually only is just a temperary phase.</p>

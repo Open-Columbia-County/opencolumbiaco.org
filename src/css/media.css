@@ -34,3 +34,8 @@ li {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (min-width: 400px) {
+  .App {
+    max-width: 400px;
+  }
+}
