@@ -7,10 +7,10 @@ const Options = (props) => {
     const [activeItem, setActiveItem] = useState('Home')
 
     const options = [
-        "Home",
-        "Our Projects",
-        "Join Us",
-        "Donate"
+        "Home"
+        // "Our Projects",
+        // "Join Us",
+        // "Donate"
     ]
 
     const handleClick = (e) => {

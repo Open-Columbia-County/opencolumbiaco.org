@@ -3,8 +3,8 @@ import React from 'react'
 const Join = () => {
     return (
         <>
-        <p>Join Us</p>
-        <iframe src="http://newsletter.opencolumbiaco.org/includethis.php" frameborder="0" width="300" height="300">Subscribe</iframe>
+        <h2>Join our Team</h2>
+        <h3>Under Construction</h3>
         </>
     )
 }
