@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
         <div className='header'>
-            <img src='https://images.thehive-services.com/open-columbia-co/coveredbridge04.jpg' alt='icon' />
+            <img src='https://images.thehive-services.com/open-columbia-co/newbridge.png' alt='icon' />
             <h1>Open Columbia County</h1>
         </div>
         <nav>

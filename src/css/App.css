@@ -48,6 +48,7 @@ li {
   align-items: center;
   border: 2px groove #c57633;
   border-radius: 20%;
+  background-color: #e8e8e8;
 }
 .App header .header {
   display: flex;
@@ -70,9 +71,11 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 200px;
 }
 .App header nav .nav-small .button {
   margin-bottom: 0.2em;
+  width: 150px;
 }
 .App header nav .nav-small .nav-option {
   display: flex;
@@ -165,7 +168,7 @@ li {
   justify-content: center;
   align-items: center;
   align-self: flex-start;
-  max-width: 140px;
+  max-width: 90%;
   margin: 0.2em 0;
 }
 .App .main section .connect ul li {
@@ -233,7 +236,8 @@ li {
   justify-content: center;
   align-items: center;
 }
-.App footer .nav .column3 button {
+.App footer .nav .column3 button,
+.App footer .nav .column2 button {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -245,15 +249,67 @@ li {
   border: 2px groove #c57633;
   margin: 0.1em;
 }
-.App footer .nav .column3 button img {
+.App footer .nav .column3 button img,
+.App footer .nav .column2 button img {
   max-width: 30%;
   margin: 0.1em 0.5em;
 }
-.App footer .nav .column3 button span {
+.App footer .nav .column3 button span,
+.App footer .nav .column2 button span {
   margin: 0.1em 0.5em;
 }
 @media only screen and (min-width: 400px) {
   .App {
     max-width: 400px;
+  }
+}
+@media only screen and (min-width: 430px) {
+  .App {
+    max-width: 430px;
+  }
+}
+@media only screen and (min-width: 530px) {
+  .App {
+    max-width: 530px;
+  }
+}
+@media only screen and (min-width: 730px) {
+  .App {
+    max-width: 730px;
+  }
+  .App header {
+    padding: 1em;
+  }
+  .App header nav {
+    background-color: #e8e8e8;
+    border-radius: 20%;
+  }
+  .App header nav .nav-small {
+    display: none;
+  }
+  .App header nav .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .App header nav .nav .nav-option {
+    padding: 1em;
+    cursor: pointer;
+  }
+  .App footer .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .App footer .nav .column {
+    padding: 1em;
+    height: 340px;
+    justify-content: flex-start;
+  }
+  .App footer .nav .column2 a {
+    padding: 0.5em;
   }
 }

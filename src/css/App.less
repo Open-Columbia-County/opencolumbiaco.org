@@ -8,6 +8,7 @@
         .flexcolumn();
         border: 2px groove @links;
         border-radius: 20%;
+        background-color: @bg;
 
         .header {
             .flexrow();
@@ -20,9 +21,11 @@
             }
             .nav-small {
                 .flexcolumn();
+                width: 200px;
 
                 .button {
                     margin-bottom: .2em;
+                    width: 150px;
                 }
 
                 .nav-option {
@@ -93,7 +96,7 @@
                 ul {
                     .flexcolumn();
                     align-self: flex-start;
-                    max-width: 140px;
+                    max-width: 90%;
                     margin: .2em 0;
 
                     li {
@@ -146,7 +149,8 @@
                 .flexcolumn();
             }
 
-            .column3 {
+            .column3,
+            .column2 {
                 button {
                     .flexrow();
                     border-radius: 40%;
